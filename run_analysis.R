@@ -63,4 +63,4 @@ summary_data <- mean_std_data %>%
   group_by(subject, activity) %>%
      summarise_all(funs(mean))
 
-write.csv(summary_data, file="Run_Analysis_Tidy_Data.csv")
+write.table(summary_data, file="Run_Analysis_Tidy_Data.txt", row.names=FALSE)

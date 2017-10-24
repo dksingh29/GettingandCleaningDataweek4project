@@ -165,5 +165,5 @@ The complete list of variables of variables in the summary_data data frame is av
 1. Open run_analysis.R file in R Studio.
 2. Set your working directory by changing the text "insert your wd location" to your working directory.
 3. Run the script in the R file
-4. The summary data is written into a .csv files that is saved into the workign directory specified by the user called "Run_Analysis_Tidy_Data.csv"
+4. The summary data is written into a .csv files that is saved into the workign directory specified by the user called "Run_Analysis_Tidy_Data.txt"
 
