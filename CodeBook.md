@@ -6,22 +6,22 @@ ________________________________________________________________
 
 ## Items in run_analysis.R Script
 
-| Item            | Description                                                         |
-| _______________ | ___________________________________________________________________ |
-| url             | Url address for zip file location                                   |
-| test_data_x     | Import of test data from url                                        |
-| test_data_y     | Import of activity labels for test data from ur                     |
-| subject_test    | Import of subject labels for test data from url                     |
-| test_data       | Combined data frame of test_data_x, test_data_y and subject_test    |
-| train_data_x    | Import of train data from url                                       |
-| train_data_y    | Import of activity labels for train data from url                   |
-| subject_train   | Import of subject labels for train data from url                    |
-| train_data      | Combined data frame of train_data_x, train_data_y and subject_train |  
-| all_data        | Row Bind of the test_data and train_data data frames                |
-| features        | Char vector of features.txt file from url, this is the column names for the test_data_x and train_data_x data frames                    |
-| mean_std_data   | Data frame of the subject, activity and any column that is a mean or standard deviation measurement                     |
-| activity_labels | Data frame of the activity code(number) and corresponding activity description (character)       |
-| summary_data    | Data frame of the average values in the mean_std_data data frame for each activity and each subject |
+Item            | Description                                                         
+--------------- | ----------
+url             | Url address for zip file location                                   
+test_data_x     | Import of test data from url                                        
+test_data_y     | Import of activity labels for test data from ur                     
+subject_test    | Import of subject labels for test data from url                     
+test_data       | Combined data frame of test_data_x, test_data_y and subject_test    
+train_data_x    | Import of train data from url                                       
+train_data_y    | Import of activity labels for train data from url                   
+subject_train   | Import of subject labels for train data from url                    
+train_data      | Combined data frame of train_data_x, train_data_y and subject_train   
+all_data        | Row Bind of the test_data and train_data data frames                
+features        | Char vector of features.txt file from url, this is the column names for the test_data_x and train_data_x data frames                    |
+mean_std_data   | Data frame of the subject, activity and any column that is a mean or standard deviation measurement 
+activity_labels | Data frame of the activity code(number) and corresponding activity description (character)
+summary_data    | Data frame of the average values in the mean_std_data data frame for each activity and each subject
 
 ## Variables
 
